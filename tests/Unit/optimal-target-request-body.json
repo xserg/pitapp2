@@ -1,0 +1,510 @@
+{
+  "processor_type": "intel",
+  "server_configs": [
+    {
+      "delete": false,
+      "parent_configuration_id": null,
+      "manufacturer_id": null,
+      "manufacturer": "N/A",
+      "ram": 0,
+      "licensed_cores": 1,
+      "server": {
+        "name": "N/A"
+      },
+      "processor": {
+        "name": "N/A",
+        "ghz": 0,
+        "core_qty": 0,
+        "socket_qty": 0
+      },
+      "os": {
+        "id": 487,
+        "name": "Red Hat Enterprise Linux 7 for Power (from IBM)",
+        "type": 1,
+        "license_cost": 0,
+        "support_cost": 1079,
+        "created_at": "2019-03-30 22:51:37",
+        "updated_at": "2019-09-16 17:46:06",
+        "support_cost_percent": null,
+        "license_discount": 0,
+        "annual_support_discount": 0,
+        "multiplier": null,
+        "support_multiplier": null,
+        "support_type": 1,
+        "user_id": null,
+        "cost_per": "Server",
+        "annual_cost_per": "Server",
+        "license_model": null,
+        "nup": null,
+        "architecture": null,
+        "full_name": "Red Hat Enterprise Linux 7 for Power (from IBM)",
+        "software_features": [],
+        "software_type": {
+          "id": 1,
+          "name": "Operating System",
+          "created_at": "2017-05-24 01:32:18",
+          "updated_at": "2017-05-24 01:32:18"
+        }
+      },
+      "hypervisor": {
+        "id": 352,
+        "name": "IBM Cloud Private (Enterprise)",
+        "type": 2,
+        "license_cost": 0,
+        "support_cost": 10200,
+        "created_at": "2018-09-19 05:00:36",
+        "updated_at": "2018-09-19 05:00:36",
+        "support_cost_percent": null,
+        "license_discount": 0,
+        "annual_support_discount": 0,
+        "multiplier": null,
+        "support_multiplier": null,
+        "support_type": 1,
+        "user_id": null,
+        "cost_per": "Processor",
+        "annual_cost_per": "Processor",
+        "license_model": null,
+        "nup": null,
+        "architecture": "",
+        "full_name": "IBM Cloud Private (Enterprise)",
+        "software_features": [],
+        "software_type": {
+          "id": 2,
+          "name": "Hypervisor",
+          "created_at": "2017-05-24 01:32:27",
+          "updated_at": "2017-05-24 01:32:27"
+        }
+      },
+      "middleware": {
+        "id": 286,
+        "name": "Cloudera Data Science",
+        "type": 3,
+        "license_cost": 0,
+        "support_cost": 4000,
+        "created_at": "2018-04-03 15:44:01",
+        "updated_at": "2018-04-03 15:44:01",
+        "support_cost_percent": null,
+        "license_discount": 0,
+        "annual_support_discount": 0,
+        "multiplier": null,
+        "support_multiplier": null,
+        "support_type": 1,
+        "user_id": null,
+        "cost_per": "Server",
+        "annual_cost_per": "Server",
+        "license_model": null,
+        "nup": null,
+        "architecture": "",
+        "full_name": "Cloudera Data Science",
+        "software_features": [],
+        "software_type": {
+          "id": 3,
+          "name": "Middleware",
+          "created_at": "2017-05-24 01:32:32",
+          "updated_at": "2017-05-24 01:32:32"
+        }
+      },
+      "database": {
+        "id": 289,
+        "name": "Cloudera Enterprise Data Hub",
+        "type": 4,
+        "license_cost": 0,
+        "support_cost": 10000,
+        "created_at": "2018-04-03 15:49:41",
+        "updated_at": "2018-04-03 15:49:41",
+        "support_cost_percent": null,
+        "license_discount": 0,
+        "annual_support_discount": 0,
+        "multiplier": null,
+        "support_multiplier": null,
+        "support_type": 1,
+        "user_id": null,
+        "cost_per": "Server",
+        "annual_cost_per": "Server",
+        "license_model": null,
+        "nup": null,
+        "architecture": "",
+        "full_name": "Cloudera Enterprise Data Hub",
+        "software_features": [],
+        "software_type": {
+          "id": 4,
+          "name": "Database",
+          "created_at": "2017-05-24 01:32:37",
+          "updated_at": "2017-05-24 01:32:37"
+        }
+      }
+    }
+  ],
+  "environment": {
+    "id": 2,
+    "project_id": 1,
+    "environment_type": {
+      "id": 1,
+      "name": "Compute",
+      "created_at": "2021-06-21 15:32:40",
+      "updated_at": "2021-06-21 15:32:40"
+    },
+    "name": "Optimal Target",
+    "server_qty": null,
+    "socket_qty": null,
+    "core_qty": null,
+    "variance": 5,
+    "max_utilization": 100,
+    "cpu_utilization": 100,
+    "ram_utilization": 100,
+    "fte_qty": null,
+    "remaining_deprecation": null,
+    "migration_services": null,
+    "currency_id": null,
+    "region_id": null,
+    "is_existing": 0,
+    "created_at": "2021-07-01 14:39:30",
+    "updated_at": "2021-07-01 14:39:30",
+    "provider_id": null,
+    "cost_per_kwh": 0.11,
+    "fte_salary": null,
+    "storage_type": 0,
+    "storage_purchase": null,
+    "storage_maintenance": null,
+    "is_dirty": 1,
+    "vms": null,
+    "raw_storage": null,
+    "useable_storage": null,
+    "is_incomplete": 0,
+    "cloud_bandwidth": null,
+    "network_overhead": null,
+    "iops": null,
+    "cloud_storage_type": null,
+    "ads_include_hybrid": 0,
+    "provisioned_iops": null,
+    "existing_environment_type": "physical_servers",
+    "vm_hardware_annual_maintenance": null,
+    "copy_vm_os": 1,
+    "copy_vm_middleware": 1,
+    "copy_vm_hypervisor": 1,
+    "copy_vm_database": 1,
+    "payment_option_id": 1,
+    "discount_rate": null,
+    "io_rate": null,
+    "converged_cloud_type": null,
+    "drive_qty": null,
+    "cloud_support_costs": "default",
+    "custom_cloud_support_cost": null,
+    "constraints": {
+      "locations": [],
+      "environment_details": [],
+      "workload_types": [],
+      "combinations": []
+    },
+    "treat_as_existing": false,
+    "software_costs": [],
+    "project": {
+      "id": 1,
+      "user_id": 480,
+      "title": "Test",
+      "provider": "Smart Software Inc",
+      "description": null,
+      "support_years": 3,
+      "analysis_type": 1,
+      "created_at": "2021-07-01 14:39:30",
+      "updated_at": "2021-07-01 14:39:30",
+      "cagr": null,
+      "comparison_type": 0,
+      "customer_name": "Test",
+      "logo": null,
+      "analysis_name": "Test",
+      "last_analysis_checksum": null,
+      "analysis_currency": null,
+      "largeAnalysis": false
+    },
+    "provider": {
+      "id": 5,
+      "name": "AWS",
+      "created_at": "2021-06-21 15:32:41",
+      "updated_at": "2021-06-21 15:32:41",
+      "payment_options": [
+        {
+          "id": 1,
+          "name": "On-Demand (No Contract)",
+          "code": "onDemand",
+          "purchase_option": "All Upfront",
+          "offering_class": "",
+          "lease_contract_length": "",
+          "type": [
+            "rds",
+            "ebs"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "1 Yr No Upfront Reserved",
+          "code": "noUpfrontReserved1Yr",
+          "purchase_option": "No Upfront",
+          "offering_class": "standard",
+          "lease_contract_length": "1yr",
+          "type": [
+            "rds",
+            "ebs"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "1 Yr Partial Upfront Reserved",
+          "code": "partialUpfrontReserved1Yr",
+          "purchase_option": "Partial Upfront",
+          "offering_class": "standard",
+          "lease_contract_length": "1yr",
+          "type": [
+            "rds",
+            "ebs"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "1 Yr All Upfront Reserved",
+          "code": "allUpfrontReserved1Yr",
+          "purchase_option": "All Upfront",
+          "offering_class": "standard",
+          "lease_contract_length": "1yr",
+          "type": [
+            "rds",
+            "ebs"
+          ]
+        },
+        {
+          "id": 5,
+          "name": "3 Yr No Upfront Reserved",
+          "code": "noUpfrontReserved3Yr",
+          "purchase_option": "No Upfront",
+          "offering_class": "standard",
+          "lease_contract_length": "3yr",
+          "type": [
+            "ebs"
+          ]
+        },
+        {
+          "id": 6,
+          "name": "3 Yr Partial Upfront Reserved",
+          "code": "partialUpfrontReserved3Yr",
+          "purchase_option": "Partial Upfront",
+          "offering_class": "standard",
+          "lease_contract_length": "3yr",
+          "type": [
+            "rds",
+            "ebs"
+          ]
+        },
+        {
+          "id": 7,
+          "name": "3 Yr All Upfront Reserved",
+          "code": "allUpfrontReserved3Yr",
+          "purchase_option": "All Upfront",
+          "offering_class": "standard",
+          "lease_contract_length": "3yr",
+          "type": [
+            "rds",
+            "ebs"
+          ]
+        },
+        {
+          "id": 8,
+          "name": "1 Yr No Upfront Convertible",
+          "code": "noUpfrontConvertible1Yr",
+          "purchase_option": "No Upfront",
+          "offering_class": "Convertible",
+          "lease_contract_length": "1yr",
+          "type": [
+            "ebs"
+          ]
+        },
+        {
+          "id": 9,
+          "name": "1 Yr Partial Upfront Convertible",
+          "code": "partialUpfrontConvertible1Yr",
+          "purchase_option": "Partial Upfront",
+          "offering_class": "Convertible",
+          "lease_contract_length": "1yr",
+          "type": [
+            "ebs"
+          ]
+        },
+        {
+          "id": 10,
+          "name": "1 Yr All Upfront Convertible",
+          "code": "allUpfrontConvertible1Yr",
+          "purchase_option": "All Upfront",
+          "offering_class": "Convertible",
+          "lease_contract_length": "1yr",
+          "type": [
+            "ebs"
+          ]
+        },
+        {
+          "id": 11,
+          "name": "3 Yr No Upfront Convertible",
+          "code": "noUpfrontConvertible3Yr",
+          "purchase_option": "No Upfront",
+          "offering_class": "Convertible",
+          "lease_contract_length": "3yr",
+          "type": [
+            "ebs"
+          ]
+        },
+        {
+          "id": 12,
+          "name": "3 Yr Partial Upfront Convertible",
+          "code": "partialUpfrontConvertible3Yr",
+          "purchase_option": "Partial Upfront",
+          "offering_class": "Convertible",
+          "lease_contract_length": "3yr",
+          "type": [
+            "ebs"
+          ]
+        },
+        {
+          "id": 13,
+          "name": "3 Yr All Upfront Convertible",
+          "code": "allUpfrontConvertible3Yr",
+          "purchase_option": "All Upfront",
+          "offering_class": "Convertible",
+          "lease_contract_length": "3yr",
+          "type": [
+            "ebs"
+          ]
+        }
+      ],
+      "cloud_storage_types": [
+        {
+          "id": 2,
+          "name": "EBS General Purpose SSD",
+          "type": "ebs"
+        },
+        {
+          "id": 3,
+          "name": "EBS Provisioned IOPS SSD",
+          "type": "ebs"
+        },
+        {
+          "id": 4,
+          "name": "EBS Throughput Optimized HDD",
+          "type": "ebs"
+        },
+        {
+          "id": 5,
+          "name": "EBS Cold HDD",
+          "type": "ebs"
+        },
+        {
+          "id": 1,
+          "name": "EBS to Snapshots to Amazon S3",
+          "type": "ebs"
+        },
+        {
+          "id": 6,
+          "name": "RDS General Purpose (SSD)",
+          "type": "rds",
+          "volume_type": "General Purpose"
+        },
+        {
+          "id": 7,
+          "name": "RDS Provisioned IOPS (SSD)",
+          "type": "rds",
+          "volume_type": "Provisioned IOPS"
+        },
+        {
+          "id": 8,
+          "name": "RDS Magnetic",
+          "type": "rds",
+          "volume_type": "Magnetic"
+        },
+        {
+          "id": 9,
+          "name": "Aurora Database Storage and IOs",
+          "type": "rds",
+          "volume_type": "General Purpose-Aurora"
+        }
+      ],
+      "hardware_maintenance_per_year": 0,
+      "regions": [
+        {
+          "id": 22,
+          "name": "US East (N. Virginia)",
+          "provider_owner_id": 5,
+          "provider_service_type": null,
+          "created_at": "2021-06-21 15:32:41",
+          "updated_at": "2021-06-21 15:32:41",
+          "enabled": 1,
+          "currencies": []
+        },
+        {
+          "id": 23,
+          "name": "US East (Ohio)",
+          "provider_owner_id": 5,
+          "provider_service_type": null,
+          "created_at": "2021-06-21 15:32:41",
+          "updated_at": "2021-06-21 15:32:41",
+          "enabled": 1,
+          "currencies": []
+        },
+        {
+          "id": 24,
+          "name": "US West (N. California)",
+          "provider_owner_id": 5,
+          "provider_service_type": null,
+          "created_at": "2021-06-21 15:32:41",
+          "updated_at": "2021-06-21 15:32:41",
+          "enabled": 1,
+          "currencies": []
+        },
+        {
+          "id": 25,
+          "name": "US West (Oregon)",
+          "provider_owner_id": 5,
+          "provider_service_type": null,
+          "created_at": "2021-06-21 15:32:41",
+          "updated_at": "2021-06-21 15:32:41",
+          "enabled": 1,
+          "currencies": []
+        },
+        {
+          "id": 40,
+          "name": "US East (N. Virginia)",
+          "provider_owner_id": 5,
+          "provider_service_type": "AmazonEC2",
+          "created_at": "2021-06-21 15:36:21",
+          "updated_at": "2021-06-21 15:36:21",
+          "enabled": 1,
+          "currencies": []
+        },
+        {
+          "id": 41,
+          "name": "US East (N. Virginia)",
+          "provider_owner_id": 5,
+          "provider_service_type": "AmazonRDS",
+          "created_at": "2021-06-21 15:36:22",
+          "updated_at": "2021-06-21 15:36:22",
+          "enabled": 1,
+          "currencies": []
+        }
+      ]
+    },
+    "region": {
+      "id": 22,
+      "name": "US East (N. Virginia)",
+      "provider_owner_id": 5,
+      "provider_service_type": null,
+      "created_at": "2021-06-21 15:32:41",
+      "updated_at": "2021-06-21 15:32:41",
+      "enabled": 1,
+      "currencies": []
+    },
+    "interconnects": [],
+    "currency": null,
+    "existing_softwares": {
+      "ids": [],
+      "names": []
+    },
+    "serverConfigs": [],
+    "softwareCosts": []
+  }
+}
